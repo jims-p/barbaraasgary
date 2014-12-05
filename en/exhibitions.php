@@ -6,10 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbara Asgary | Biography</title>
-    <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Raleway:200,400/Open+Sans:400,700">
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/screen.css" />
-    <script src="js/vendor/modernizr.js"></script>
+    <?php include (['DOCUMENT_ROOT'].'../include/head.inc.php'); ?>
   </head>
   <body>
     
@@ -19,11 +16,11 @@
       <div class="large-12 columns">
         <div class="large-4 columns">
           <ul class="clearing-thumbs" data-clearing>
-            <li><a href="img/expos/large/expo1.jpg"><img src="img/expos/thumb/expo1.jpg"></a></li>
-            <li><a href="img/expos/large/expo2.jpg"><img src="img/expos/thumb/expo2.jpg"></a></li>
-            <li><a href="img/expos/large/expo3.jpg"><img src="img/expos/thumb/expo3.jpg"></a></li>
-            <li><a href="img/expos/large/expo4.jpg"><img src="img/expos/thumb/expo4.jpg"></a></li>
-            <li><a href="img/expos/large/expo5.jpg"><img src="img/expos/thumb/expo5.jpg"></a></li>
+            <li><a href="../img/expos/large/expo1.jpg"><img src="../img/expos/thumb/expo1.jpg"></a></li>
+            <li><a href="../img/expos/large/expo2.jpg"><img src="../img/expos/thumb/expo2.jpg"></a></li>
+            <li><a href="../img/expos/large/expo3.jpg"><img src="../img/expos/thumb/expo3.jpg"></a></li>
+            <li><a href="../img/expos/large/expo4.jpg"><img src="../img/expos/thumb/expo4.jpg"></a></li>
+            <li><a href="../img/expos/large/expo5.jpg"><img src="../img/expos/thumb/expo5.jpg"></a></li>
           </ul>
         </div>
         <div class="large-8 columns">
@@ -206,8 +203,8 @@
     
     
     
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
+    <script src="../js/vendor/jquery.js"></script>
+    <script src="../js/foundation.min.js"></script>
     <script>
       $(document).foundation();
     </script>

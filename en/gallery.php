@@ -6,14 +6,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbara Asgary | Gallery</title>
-    <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Raleway:200,400/Open+Sans:400,700">
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/screen.css" />
-    <script src="js/vendor/modernizr.js"></script>
+    <?php include (['DOCUMENT_ROOT'].'../include/head.inc.php'); ?>
   </head>
   <body>
     
-    <?php include ($_SERVER['DOCUMENT_ROOT'].'/include/header.inc.php'); ?>
+    <?php include ('include/header.inc.php'); ?>
 
     <div class="row">
       <div class="large-12 columns">
@@ -26,8 +23,8 @@
               <li data-orbit-slide>
                 <div class="panel">
                 <ul class="clearing-thumbs" data-clearing>
-                  <li><a href="img/gallery/collection_2007-2012/large/Asgary-2012-001.jpg"><img src="img/gallery/collection_2004-2006/thumb/Asgary-2012-001.jpg" data-caption="Now (Harnessed) (2012) 48&quot; x 96&quot; - Acrylic & Rope"></a></li>
-                  <li><a href="img/gallery/collection_2007-2012/large/Asgary-2012-044.jpg"><img src="img/gallery/collection_2004-2006/thumb/Asgary-2012-044.jpg" data-caption="Now (Harnessed) (2012) 48&quot; x 96&quot; - Acrylic & Rope"></a></li>
+                  <li><a href="../img/gallery/collection_2007-2012/large/Asgary-2012-001.jpg"><img src="../img/gallery/collection_2004-2006/thumb/Asgary-2012-001.jpg" data-caption="Now (Harnessed) (2012) 48&quot; x 96&quot; - Acrylic & Rope"></a></li>
+                  <li><a href="../img/gallery/collection_2007-2012/large/Asgary-2012-044.jpg"><img src="../img/gallery/collection_2004-2006/thumb/Asgary-2012-044.jpg" data-caption="Now (Harnessed) (2012) 48&quot; x 96&quot; - Acrylic & Rope"></a></li>
                 </ul>
                 </div>
               </li>
@@ -96,10 +93,10 @@
     </div>
     
     
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script src="js/foundation/foundation.orbit.js"></script>
-    <script src="js/foundation/foundation.clearing.js"></script>
+    <script src="../js/vendor/jquery.js"></script>
+    <script src="../js/foundation.min.js"></script>
+    <script src="../js/foundation/foundation.orbit.js"></script>
+    <script src="../js/foundation/foundation.clearing.js"></script>
     <script>
       $(document).foundation('orbit', {
         timer: false,

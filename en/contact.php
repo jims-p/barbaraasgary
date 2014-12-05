@@ -60,10 +60,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbara Asgary | Contact</title>
-    <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Raleway:200,400/Open+Sans:400,700">
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/screen.css" />
-    <script src="js/vendor/modernizr.js"></script>
+    <?php include (['DOCUMENT_ROOT'].'../include/head.inc.php'); ?>
+    
   </head>
   <body>
     
@@ -111,9 +109,9 @@
     
     
     
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script src="js/foundation/foundation.abide.js"></script>
+    <script src="../js/vendor/jquery.js"></script>
+    <script src="../js/foundation.min.js"></script>
+    <script src="../js/foundation/foundation.abide.js"></script>
     <script>
       $(document).foundation();
     </script>

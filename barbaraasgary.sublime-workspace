@@ -271,7 +271,7 @@
 			"file": "contact.php",
 			"settings":
 			{
-				"buffer_size": 4835,
+				"buffer_size": 4664,
 				"line_ending": "Unix"
 			}
 		},
@@ -279,7 +279,7 @@
 			"file": "gallery.php",
 			"settings":
 			{
-				"buffer_size": 5819,
+				"buffer_size": 5631,
 				"line_ending": "Unix"
 			}
 		},
@@ -292,10 +292,18 @@
 			}
 		},
 		{
+			"file": "include/head.inc.php",
+			"settings":
+			{
+				"buffer_size": 257,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "exhibitions.php",
 			"settings":
 			{
-				"buffer_size": 7329,
+				"buffer_size": 7180,
 				"line_ending": "Unix"
 			}
 		},
@@ -303,7 +311,7 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 1330,
+				"buffer_size": 1151,
 				"line_ending": "Unix"
 			}
 		},
@@ -311,7 +319,15 @@
 			"file": "bio.php",
 			"settings":
 			{
-				"buffer_size": 5644,
+				"buffer_size": 5465,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/wamp/www/___projects/victoriasquare/index.php",
+			"settings":
+			{
+				"buffer_size": 558,
 				"line_ending": "Unix"
 			}
 		},
@@ -343,7 +359,7 @@
 			"file": "___projects/bimetalic/contact.php",
 			"settings":
 			{
-				"buffer_size": 6621,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -351,7 +367,7 @@
 			"file": "___projects/bimetalic/include/headerbanner.inc.php",
 			"settings":
 			{
-				"buffer_size": 3865,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		}
@@ -779,7 +795,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -787,15 +803,15 @@
 					"file": "contact.php",
 					"settings":
 					{
-						"buffer_size": 4835,
+						"buffer_size": 4664,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3282,
-								3282
+								4542,
+								4542
 							]
 						],
 						"settings":
@@ -806,7 +822,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 855.0,
+						"translation.y": 1122.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -816,15 +832,15 @@
 					"file": "gallery.php",
 					"settings":
 					{
-						"buffer_size": 5819,
+						"buffer_size": 5631,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								365,
-								365
+								309,
+								309
 							]
 						],
 						"settings":
@@ -871,26 +887,23 @@
 				},
 				{
 					"buffer": 3,
-					"file": "exhibitions.php",
+					"file": "include/head.inc.php",
 					"settings":
 					{
-						"buffer_size": 7329,
+						"buffer_size": 257,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1233,
-								1233
+								224,
+								224
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -900,18 +913,47 @@
 				},
 				{
 					"buffer": 4,
-					"file": "index.php",
+					"file": "exhibitions.php",
 					"settings":
 					{
-						"buffer_size": 1330,
+						"buffer_size": 7180,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								622,
-								622
+								7071,
+								7071
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2858.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 1151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30,
+								30
 							]
 						],
 						"settings":
@@ -928,19 +970,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "bio.php",
 					"settings":
 					{
-						"buffer_size": 5644,
+						"buffer_size": 5465,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5356,
+								5356
 							]
 						],
 						"settings":
@@ -949,6 +991,34 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 810.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/wamp/www/___projects/victoriasquare/index.php",
+					"settings":
+					{
+						"buffer_size": 558,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								557,
+								7
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -963,7 +1033,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "css/screen.css",
 					"settings":
 					{
@@ -985,13 +1055,13 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 180.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "css/foundation.css",
 					"settings":
 					{
@@ -1019,7 +1089,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
 					"file": "js/foundation/foundation.orbit.js",
 					"settings":
 					{
@@ -1047,19 +1117,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 11,
 					"file": "___projects/bimetalic/contact.php",
 					"settings":
 					{
-						"buffer_size": 6621,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5111,
-								5111
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1074,19 +1144,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 12,
 					"file": "___projects/bimetalic/include/headerbanner.inc.php",
 					"settings":
 					{
-						"buffer_size": 3865,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								756,
-								756
+								0,
+								0
 							]
 						],
 						"settings":
