@@ -60,13 +60,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbara Asgary | Contact</title>
+    <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Raleway:200,400/Open+Sans:400,700">
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/screen.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
     
-    <?php include ($_SERVER['DOCUMENT_ROOT'].'/include/header.inc.php'); ?>
+    <?php include ('include/header.inc.php'); ?>
 
     <div class="row content">
       <div class="large-6 columns">
@@ -74,42 +75,37 @@
 
         <form data-abide id="myform" method="post" action="./contact.php" name="form">
           <div class="name-field">
-            <label>Your name <small>required</small>
-              <input type="text" required pattern="[a-zA-Z]+">
+            <label for="name">Your name <small>required</small>
+              <input id="name" type="text" name="name" required pattern="[a-zA-Z]+" value="<?php if (isset($name)) echo $name; ?>">
             </label>
-            <small class="error">Name is required and must be a string.</small>
+            <small class="error">You forgot to write your name.</small>
           </div>
           <div class="email-field">
-            <label>Email <small>required</small>
-              <input type="email" required>
+            <label for="email">Your email address <small>required</small>
+              <input id="email" name="email" type="email" required value="<?php if (isset($email)) echo $email; ?>">
             </label>
             <small class="error">An email address is required.</small>
           </div>
           <div class="message-field">
             <label for="message">Your message <small>required</small>
-                <textarea id="message" name="message" required></textarea>
+                <textarea id="message" name="message" rows="8" required><?php if (isset($message)) echo $message; ?></textarea>
               </label>
-            <small class="error">An email address is required.</small>
+            <small class="error">You forgot to write your message.</small>
           </div>
-          <!-- <button type="submit" name="envoi">Submit</button> -->
-          <input class="button small large-12" type="submit" name="envoi" value="Send Message" />
+          <button type="submit" name="envoi">Send Message</button>
+          <!-- <input class="button small large-12" type="submit" name="envoi" value="Send Message"> -->
         </form>
-
-        <!-- <form method="post" name="form">
-          <div class="row">
-            <div class="large-12 columns">
-              <label for="name">Name
-                <input id="name" type="text" name="name" value="<?php if (isset($name)) echo $name; ?>" placeholder="large-12.columns" required />
-              </label>
-              <label>Email
-                <input id="email" type="text" name="email" value="<?php if (isset($email)) echo $email; ?>" placeholder="Your email address" required/>
-              </label>
-              <label for="message">Textarea Label
-                <textarea id="message" name="message" placeholder="Your message" required><?php if (isset($message)) echo $message; ?></textarea>
-              </label>
-            </div>
-          </div>
-        </form> -->
+      </div>
+      <div class="large-6 columns">
+        <h3>sales conditions</h3>
+        <h5>Price:</h5>
+        <p>Contact us to receive the price and further information.</p>
+        <h5>Payment information:</h5>
+        <p>Mail a letter including your name, mailing address, phone number, e-mail address, picture number as shown on the website, a money order or cashier check for the full amount to the artist’s name: Barbara Asgary.</p>
+        <h5>Shipping information:</h5>
+        <p>The artwork will be shipped via an international courier company or Canada postal service.<br><br>The artwork is generally shipped within 3 business days from receiving the full payment.<br><br>The shipping cost will be included in the purchase price.</p>
+        <h5>Return policy:</h5>
+        <p>Should the purchaser return the artwork in the original condition within 3 business days after receiving, then, the seller will reimburse 80% of the purchase price in the form of a money order or cashier’s check in the name of the purchaser. To cover the cost of the packaging, shipping and handling, the artist will retain 20% of the purchase price.</p>
       </div>
     </div>
     

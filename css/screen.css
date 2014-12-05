@@ -1,11 +1,102 @@
+h4 {
+	font-size: 1.9rem;
+	line-height: 1.5rem;
+}
+
+h5 {
+	font-family: 'Open Sans';
+}
+
+p {
+	font-family: 'Open Sans'
+}
+
+.home {
+	padding: 10px;
+}
+
+.home .cover-side {
+	display: none;
+}
+
+.home .side-nav li a {
+	font: 400 3rem 'Raleway';
+	color: #333;
+}
+
+.big-logo span {
+	font-size: 5rem;
+	line-height: 5.5rem;
+}
+
+.logo span:last-of-type, .big-logo span:last-of-type {
+	color: #fff;
+	background-color: #333;
+	padding: 10px;
+}
+
+.big-logo span:last-of-type {
+	padding: 5px 25px 10px 10px;
+}
+
+.top-bar-section ul li > a {
+	font: 200 1.5rem 'Raleway';
+}
+
 .row.content {
 	margin-top: 20px;
 }
 
 .biography img {
-	padding-bottom: 10px;
+	padding-bottom: 20px ;
 }
 
 .orbit-container .panel {
 	height: 500px;
+}
+
+.panel p.clearing-caption {
+	color: #fff;
+}
+
+
+
+
+@media only screen and (min-width: 40.063em) {
+	.home .cover-side {
+		width: 60%;
+		display: block;
+	}
+
+	.home .text-side {
+		width: 40%;
+	}
+
+	.top-bar {
+		background: none;
+	}
+
+	.top-bar-section {
+		text-align: center;
+		margin: auto;
+	}
+
+	.top-bar-section ul li {
+		background: none;
+
+	}
+
+	.top-bar-section li:not(.has-form) a:not(.button) {
+		background: none;
+	}
+
+	.top-bar-section ul li > a {
+		font: 200 1.5rem 'Raleway';
+		color: #000;
+	}
+
+	.top-bar-section li:not(.has-form) a:not(.button):active {
+		background-color: #333;
+		color: #fff;
+	}
 }
