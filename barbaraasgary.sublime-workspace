@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
 				"back",
 				"background-color"
 			],
@@ -78,10 +82,6 @@
 			[
 				"li",
 				"li	Tag"
-			],
-			[
-				"paddin",
-				"padding"
 			],
 			[
 				"padd",
@@ -268,30 +268,6 @@
 	"buffers":
 	[
 		{
-			"file": "contact.php",
-			"settings":
-			{
-				"buffer_size": 4664,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "gallery.php",
-			"settings":
-			{
-				"buffer_size": 5631,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "include/header.inc.php",
-			"settings":
-			{
-				"buffer_size": 903,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "include/head.inc.php",
 			"settings":
 			{
@@ -300,10 +276,34 @@
 			}
 		},
 		{
-			"file": "exhibitions.php",
+			"file": "en/include/header.inc.php",
 			"settings":
 			{
-				"buffer_size": 7180,
+				"buffer_size": 1218,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "en/gallery.php",
+			"settings":
+			{
+				"buffer_size": 16561,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "en/exhibitions.php",
+			"settings":
+			{
+				"buffer_size": 7136,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "en/contact.php",
+			"settings":
+			{
+				"buffer_size": 4646,
 				"line_ending": "Unix"
 			}
 		},
@@ -311,23 +311,23 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 1151,
+				"buffer_size": 560,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "bio.php",
+			"file": "en/index.php",
 			"settings":
 			{
-				"buffer_size": 5465,
+				"buffer_size": 1136,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/wamp/www/___projects/victoriasquare/index.php",
+			"file": "en/bio.php",
 			"settings":
 			{
-				"buffer_size": 558,
+				"buffer_size": 5424,
 				"line_ending": "Unix"
 			}
 		},
@@ -335,7 +335,7 @@
 			"file": "css/screen.css",
 			"settings":
 			{
-				"buffer_size": 1274,
+				"buffer_size": 1477,
 				"line_ending": "Windows"
 			}
 		},
@@ -359,7 +359,7 @@
 			"file": "___projects/bimetalic/contact.php",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 6621,
 				"line_ending": "Windows"
 			}
 		},
@@ -367,7 +367,7 @@
 			"file": "___projects/bimetalic/include/headerbanner.inc.php",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 3865,
 				"line_ending": "Windows"
 			}
 		}
@@ -404,6 +404,13 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/___projects/victoriasquare/index.php",
+		"/C/wamp/www/exhibitions.php",
+		"/C/wamp/www/bio.php",
+		"/C/wamp/www/en/include/header.inc.php",
+		"/C/wamp/www/___projects/barbaraasgary/include/header.inc.php",
+		"/C/wamp/www/___projects/barbaraasgary/contact.php",
+		"/C/wamp/www/___projects/barbaraasgary/gallery.php",
 		"/C/wamp/www/___projects/bimetalic/include/head.inc.php",
 		"/C/wamp/www/___projects/bimetalic/include/headerbanner.inc.php",
 		"/C/wamp/www/___projects/bimetalic/css/screen.css",
@@ -427,7 +434,6 @@
 		"/C/wamp/www/___projects/victoriasquare/css/jquery.fancybox-1.3.4.css",
 		"/C/wamp/www/___projects/victoriasquare/js/jquery.fancybox-1.3.4.js",
 		"/C/Users/Marc/Dropbox/Production/Victoria Square Medical Center Site Details/Victoria Medical Site/public_html/contact.html",
-		"/C/wamp/www/___projects/victoriasquare/index.php",
 		"/C/wamp/www/index.html",
 		"/C/wamp/www/___projects/Ebenisterie/module/order_roomcreateform_step6.jsp",
 		"/C/wamp/www/___projects/Ebenisterie/order.jsp",
@@ -525,13 +531,7 @@
 		"/C/Users/Marc/Desktop/.shadow",
 		"/C/Users/Marc/Desktop/.bashrc",
 		"/C/Users/Marc/Desktop/.htaccess",
-		"/C/Users/Marc/Desktop/.bash_profile",
-		"/C/wamp/www/floorheatingsystem.php",
-		"/C/wamp/www/heatingcable.php",
-		"/C/wamp/www/about.html",
-		"/C/wamp/www/css/owl-carousel.css",
-		"/C/wamp/www/contact.php",
-		"/C/Users/Marc/Documents/projects/store/js/owl.carousel/owl-carousel/owl.theme.css"
+		"/C/Users/Marc/Desktop/.bash_profile"
 	],
 	"find":
 	{
@@ -795,98 +795,11 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "contact.php",
-					"settings":
-					{
-						"buffer_size": 4664,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4542,
-								4542
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1122.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "gallery.php",
-					"settings":
-					{
-						"buffer_size": 5631,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								309,
-								309
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "include/header.inc.php",
-					"settings":
-					{
-						"buffer_size": 903,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								354,
-								354
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "include/head.inc.php",
 					"settings":
 					{
@@ -912,48 +825,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "exhibitions.php",
+					"buffer": 1,
+					"file": "en/include/header.inc.php",
 					"settings":
 					{
-						"buffer_size": 7180,
+						"buffer_size": 1218,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7071,
-								7071
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2858.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "index.php",
-					"settings":
-					{
-						"buffer_size": 1151,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								30,
-								30
+								282,
+								282
 							]
 						],
 						"settings":
@@ -970,19 +854,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "bio.php",
+					"buffer": 2,
+					"file": "en/gallery.php",
 					"settings":
 					{
-						"buffer_size": 5465,
+						"buffer_size": 16561,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5356,
-								5356
+								36,
+								36
 							]
 						],
 						"settings":
@@ -993,31 +877,144 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 810.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "/C/wamp/www/___projects/victoriasquare/index.php",
+					"buffer": 3,
+					"file": "en/exhibitions.php",
 					"settings":
 					{
-						"buffer_size": 558,
+						"buffer_size": 7136,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								557,
-								7
+								341,
+								341
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "en/contact.php",
+					"settings":
+					{
+						"buffer_size": 4646,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								36
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 560,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42,
+								42
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 3,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "en/index.php",
+					"settings":
+					{
+						"buffer_size": 1136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								445,
+								445
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "en/bio.php",
+					"settings":
+					{
+						"buffer_size": 5424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								503,
+								503
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -1037,15 +1034,15 @@
 					"file": "css/screen.css",
 					"settings":
 					{
-						"buffer_size": 1274,
+						"buffer_size": 1477,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								714,
-								714
+								1475,
+								1373
 							]
 						],
 						"settings":
@@ -1055,7 +1052,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 759.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1072,8 +1069,8 @@
 						"selection":
 						[
 							[
-								12693,
-								12698
+								53855,
+								53855
 							]
 						],
 						"settings":
@@ -1083,7 +1080,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 10636.0,
+						"translation.y": 31376.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1121,7 +1118,7 @@
 					"file": "___projects/bimetalic/contact.php",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 6621,
 						"regions":
 						{
 						},
@@ -1148,7 +1145,7 @@
 					"file": "___projects/bimetalic/include/headerbanner.inc.php",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 3865,
 						"regions":
 						{
 						},

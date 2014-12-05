@@ -6,11 +6,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbara Asgary | Biography</title>
-    <?php include (['DOCUMENT_ROOT'].'../include/head.inc.php'); ?>
+    <?php include ('../include/head.inc.php'); ?>
   </head>
   <body>
     
-    <?php include ($_SERVER['DOCUMENT_ROOT'].'/include/header.inc.php'); ?>
+    <?php include ('/include/header.inc.php'); ?>
 
     <div class="row content">
       <div class="large-12 columns">

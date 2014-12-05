@@ -6,16 +6,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbara Asgary | Biography</title>
-    <?php include (['DOCUMENT_ROOT'].'../include/head.inc.php'); ?>
+    <?php include ('../include/head.inc.php'); ?>
   </head>
   <body>
     
-    <?php include ($_SERVER['DOCUMENT_ROOT'].'/include/header.inc.php'); ?>
+    <?php include ('/include/header.inc.php'); ?>
 
     <div class="row content biography">
       <div class="large-12 columns">
         <div class="large-4 columns">
-          <img src="img/barb-015.jpg">
+          <img src="../img/barb-015.jpg">
           <p>The Gallery at Victoria Hall features a duo exhibition of Barbara Asgary’s recent works on paper and canvas…The expressive poetry of Asgary’s mark making is a shared lyric sensibility. The exhibition runs from September 18th to October 10th , 2003. The vernissage takes place Wednesday, September 17th , 2003.<br><br>Barbara Asgary presents a series of recent abstractions. On both canvas and paper, her expressive brushwork traverses the surface ground to register the emotional nuances of an inner landscape fed by the artist’s spiritual interaction with the word. “I see pictures when I close my eyes… These paintings are a window into my inner existence; they speak of my spiritual space.” The colour blue dominates the series; for the artist, it carries a particular significance. “Blue speaks of air and water…Thoughts and ideas, feelings and emotions are, by and large, blue. Blue is soft, gentle, supportive, encouraging.” In certain works, the artist’s use of mixed media, acrylic gel, charcoal, and oil stick – creates a buildup of texture and form that brings an added depth and layeredness to the work. In the large format canvases, this works particularly well to anchor the quick, intuitive movement of the brush.<br><br><i>Communiqué, for show at The Gallery of Victoria Hall, Montreal</i></p>
         </div>
         <div class="large-4 columns">

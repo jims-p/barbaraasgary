@@ -6,14 +6,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbara Asgary | Welcome</title>
-    <?php include (['DOCUMENT_ROOT'].'../include/head.inc.php'); ?>
+    <?php include ('../include/head.inc.php'); ?>
   </head>
   <body>
 
     <div class="row home">
       <div class="large-12 columns">
         <div class="large-8 columns cover-side">
-          <img src="img/homecover.png" alt="Barbara Asgary arts">
+          <img src="../img/homecover.png" alt="Barbara Asgary arts">
         </div>
         <div class="large-4 columns text-side">
           <h1 class="big-logo"><span>Barbara</span><br><span>Asgary</span></h1>

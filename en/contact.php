@@ -60,7 +60,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbara Asgary | Contact</title>
-    <?php include (['DOCUMENT_ROOT'].'../include/head.inc.php'); ?>
+    <?php include ('../include/head.inc.php'); ?>
     
   </head>
   <body>

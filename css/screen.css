@@ -52,15 +52,24 @@ p {
 }
 
 .orbit-container .panel {
-	height: 500px;
+	min-height: 500px;
 }
 
 .panel p.clearing-caption {
 	color: #fff;
 }
 
+.orbit-container .orbit-prev > span {
+	border-right-color: #333;
+}
 
+.orbit-container .orbit-next > span {
+	border-left-color: #333;
+}
 
+.clearing-thumbs li, [data-clearing] li {
+	margin-bottom: 10px;
+}
 
 @media only screen and (min-width: 40.063em) {
 	.home .cover-side {
