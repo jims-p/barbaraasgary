@@ -10,7 +10,7 @@
   </head>
   <body>
     
-    <?php include ('/include/header.inc.php'); ?>
+    <?php include ('include/header.inc.php'); ?>
 
     <div class="row content">
       <div class="large-12 columns">
@@ -24,7 +24,7 @@
           </ul>
         </div>
         <div class="large-8 columns">
-          <div class="large-4 columns">
+          <div class="large-6 columns">
             <h4>exhibitions</h4>
             <p><b>2011</b><br>
               Portes Ouverts / Open House<br>
@@ -129,7 +129,7 @@
               Montreal, Qc.</p>
             </div>
 
-            <div class="large-4 columns">
+            <div class="large-6 columns">
               <p><b>2003</b><br>
               Galerie de la ville de Montréal ( Westmount )<br>
               Juried exhibition / Exposition Jurée<br>

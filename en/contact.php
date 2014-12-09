@@ -31,7 +31,7 @@
         }
 
         if ($valid){
-            $to = "jim@neoinformatics.com";
+            $to = "barbara.asgary@gmail.com";
             $subject = "Message from ".$name." ,visitor of barbaraasgary.com";
             $header = "";
             $message = stripslashes($message)."\n"."\n";

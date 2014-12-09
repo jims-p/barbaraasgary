@@ -12,7 +12,8 @@ p {
 }
 
 .home {
-	padding: 10px;
+	top: 20px;
+	position: relative;
 }
 
 .home .cover-side {

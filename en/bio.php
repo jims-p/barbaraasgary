@@ -10,7 +10,7 @@
   </head>
   <body>
     
-    <?php include ('/include/header.inc.php'); ?>
+    <?php include ('include/header.inc.php'); ?>
 
     <div class="row content biography">
       <div class="large-12 columns">
